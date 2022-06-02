@@ -5,6 +5,8 @@ namespace Robot {
 
       public int Target { get; set; }
 
+      public int[] Target
+
       public GiantKillerRobot() {
       }
 

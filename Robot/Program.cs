@@ -6,12 +6,13 @@
          robot.Initialize();
 
          //robot.Target = {Animals, Humans, Superheroes}
-         robot.Target = { Animals, Humans, Superheroes };
+         robot.Target(Animals, Humans, Superheroes);
 
          Animals animal = new Animals();
          animal.AnimalCount = 0;
 
-         earth = Planets.Earth;
+         Planets earth = new Planets();
+         Planets earth = Planets.Earth;
 
          while (robot.Active && earth.Containslife) {
             if (robot.CurrentTarget.IsAlive)
