@@ -8,6 +8,7 @@ namespace LeftRight {
          int[] arr = new int[] { 6, 3, 1, 2, 6, 10, 7, 11, 16 };
          int n = arr.Length;
 
+
          int var = arr[0];
          int[] max = new int[n];
          for (int i = 0; i < n; i++) {

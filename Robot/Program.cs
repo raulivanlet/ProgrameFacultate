@@ -11,7 +11,8 @@
          Animals animal = new Animals();
          animal.AnimalCount = 0;
 
-         Planets earth = new Planets();
+         Planets earthCopy = new Planets();
+         int earth = earthCopy.Health
          Planets earth = Planets.Earth;
 
          while (robot.Active && earth.Containslife) {

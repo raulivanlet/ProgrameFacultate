@@ -46,6 +46,7 @@
     <Compile Include="Animals.cs" />
     <Compile Include="GiantKillerRobot.cs" />
     <Compile Include="Humans.cs" />
+    <Compile Include="Planets.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Superheroes.cs" />

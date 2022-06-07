@@ -14,9 +14,6 @@
 
       public string Name { get; set; }
 
-      public void GetHitByLaser() {
-      }
-
-      protected void ok() { }
+      public abstract void GetHitByLaser();
    }
 }
